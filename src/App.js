@@ -1,10 +1,10 @@
-import { Router, Utils } from "@lightningjs/sdk";
-import { MENU_ITEMS } from "./constants/links";
+import { Router, Utils } from '@lightningjs/sdk';
+import { MENU_ITEMS } from './constants/links.js';
 
 export default class App extends Router.App {
   static getFonts() {
     return [
-      { family: "Regular", url: Utils.asset("fonts/Roboto-Regular.ttf") },
+      { family: 'Regular', url: Utils.asset('fonts/Roboto-Regular.ttf') },
     ];
   }
 
@@ -14,7 +14,7 @@ export default class App extends Router.App {
 
   _setup() {
     Router.startRouter({
-      root: "home",
+      root: 'home',
       routes: App._routes(),
     });
   }
