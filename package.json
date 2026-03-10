@@ -2,7 +2,8 @@
   "name": "com.innercitymd.app",
   "description": "innermdcity-app",
   "dependencies": {
-    "@lightningjs/sdk": "^5.5.7"
+    "@lightningjs/sdk": "^5.5.7",
+    "hls.js": "^1.6.15"
   },
   "scripts": {
     "dev": "lng dev",

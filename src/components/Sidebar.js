@@ -112,4 +112,8 @@ export default class Sidebar extends Lightning.Component {
       this.tag("Menu").children[activeIndex].color = 0xff1a73e8;
     }
   }
+
+  _handleRight() {
+    this.fireAncestors("$focusPlayer");
+  }
 }
