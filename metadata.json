@@ -1,0 +1,6 @@
+{
+  "name": "innermdcity-app",
+  "identifier": "com.innercitymd.app",
+  "version": "1.0.0",
+  "icon": "./static/icon.png"
+}

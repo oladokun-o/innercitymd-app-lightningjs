@@ -1,0 +1,11 @@
+{
+  "name": "com.innercitymd.app",
+  "description": "innermdcity-app",
+  "dependencies": {
+    "@lightningjs/sdk": "^5.5.7"
+  },
+  "scripts": {
+    "dev": "lng dev",
+    "start": "lng serve"
+  }
+}
